@@ -68,7 +68,10 @@ CB9800 000000
 .title-card {
   height: 100%;
   width: 500px;
+  vertical-align: middle;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .title-card:hover {
@@ -78,7 +81,7 @@ CB9800 000000
 }
 
 .title {
-  text-align: center;
+  margin: auto;
 }
 
 .hidden {
