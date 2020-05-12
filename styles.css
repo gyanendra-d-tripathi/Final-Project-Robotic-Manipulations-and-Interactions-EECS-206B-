@@ -59,6 +59,7 @@ CB9800 000000
   font-size: 18px;
   line-height: 36px;
   height: 100%;
+  transition: width 0.8s ease-out;
 }
 
 .section {
@@ -85,5 +86,12 @@ CB9800 000000
 }
 
 .hidden {
-  display: none;
+  padding: 50px 0px !important;
+  transition: padding 0.8s ease-out;
+}
+
+.hidden p {
+  width: 0px !important;
+  overflow: hidden;
+  transition: width 0.8s ease-out;
 }
